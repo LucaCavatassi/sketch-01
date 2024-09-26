@@ -22,14 +22,14 @@ const sketch = () => {
     
     context.fillStyle = 'black';
 
-    const cx = width * 0.5;
-    const cy = height * 0.5;
+    const cx = width;
+    const cy = height;
     const w = width * 0.01;
     const h = height * 0.1;
     let x, y;
 
     const num = 12;
-    const radius = width * 0.3;
+    const radius = width * 0.4;
 
     for (let i = 0; i < num; i++) {
       const slice = math.degToRad(360 / num);
